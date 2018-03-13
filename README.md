@@ -1,2 +1,21 @@
 # NeteaseCloudMusicDecrypt
 Decrypt the cache files of Netease Cloud Music, and output them.
+
+由于最近发现网易对云音乐做了加密处理，导致缓存文件无法直接播放，这里写了一个破解的小程序。
+
+##### 大概说一下步骤，首先播放不能下载的音乐或者歌单。
+![](https://github.com/ChuckUncle/NeteaseCloudMusicDecrypt/blob/master/screenshot/001.jpg) 
+
+##### 然后找到网易云的缓存文件夹，里面会有之前播放过的音乐。
+![](https://github.com/ChuckUncle/NeteaseCloudMusicDecrypt/blob/master/screenshot/002.jpg) 
+
+##### 从缓存文件夹拷贝出.uc文件, 然后放到你想要的路径。
+![](https://github.com/ChuckUncle/NeteaseCloudMusicDecrypt/blob/master/screenshot/003.jpg) 
+
+##### 更改 Change.java中文件输入/输出到你的本机路径, 编译Change.java, 并运行。
+
+#####使用Foobar获取音乐的metadata, 因为网易的音乐文件很多确实metadata，所以这里并能拿到所有的信息，还不完美=.=!
+
+
+##### 最后,请支持正版!!
+![](https://github.com/ChuckUncle/NeteaseCloudMusicDecrypt/blob/master/screenshot/warning.png) 
